@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NSLog("main branches")
+        
         var count = 0
         for row in 5...10 {
             count += 1
