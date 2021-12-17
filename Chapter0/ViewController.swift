@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NSLog("main branches")
+        NSLog("GitHub 원격 저장소 연동 완료.")
         
         var count = 0
         for row in 5...10 {
